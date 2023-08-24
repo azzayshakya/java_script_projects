@@ -9,6 +9,10 @@ body{
    
 
 }
+
+.main{
+    margin-left: 300px;
+}
 .project{
     background-image:url(/bac.jpeg);
    
@@ -27,6 +31,8 @@ h1{
     justify-content: center;
     align-items: center;
     padding:80px 0px 0px 0px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
 }
@@ -36,11 +42,14 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    height: 100px;
+   
+    
     text-align: center;
     padding-top: 20px;
+    flex-wrap: wrap;
     
+   
+  
 
 }
 
